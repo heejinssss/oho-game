@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from '@/styles/Dice.module.css';
+import React from "react";
+import styles from "@/styles/Dice.module.css";
 
 export default function Dice({ face }) {
 
