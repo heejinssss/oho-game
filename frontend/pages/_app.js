@@ -1,5 +1,5 @@
-import '../styles/globals.css';
-import 'regenerator-runtime/runtime';
+import "../styles/globals.css";
+import "regenerator-runtime/runtime";
 import React from "react";
 import App, { Container } from "next/app";
 import { Provider } from "react-redux";
