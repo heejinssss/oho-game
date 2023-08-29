@@ -1,7 +1,7 @@
-'use client'
+"use client";
 
-import { useEffect, useState, useRef } from 'react';
-import styles from '@/styles/RoomPage.module.css';
+import { useEffect, useState, useRef } from "react";
+import styles from "@/styles/RoomPage.module.css";
 
 export default function RoomChat(props) {
   
@@ -23,7 +23,7 @@ export default function RoomChat(props) {
     if (e.key === 'Enter') {
       e.preventDefault();
       sendMessage();
-      setMessage(''); //메시지 입력 시 input창 비우기
+      setMessage(''); // 메시지 입력 시 input 비우기
     }
   }
 
