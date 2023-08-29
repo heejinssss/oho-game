@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import tip from "../../data/tip";
-
 import styles from "@/styles/EnterPage.module.css";
 
 export default function RightBox() {
