@@ -1,14 +1,14 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from "react";
 import { useSelector } from "react-redux";
-import SockJS from 'sockjs-client';
-import { Stomp } from '@stomp/stompjs';
-import VoteLiarComponent from './VoteLiarComponent';
-import styles from '@/styles/LiarGame.module.css';
+import SockJS from "sockjs-client";
+import { Stomp } from "@stomp/stompjs";
+import VoteLiarComponent from "./VoteLiarComponent";
+import styles from "@/styles/LiarGame.module.css";
 
 
 export default function Phase2() {
   const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(33); // 빠른 테스트를 위한 시간 1초 설정(기존 값 : minutes = 2, seconds = 0)
+  const [seconds, setSeconds] = useState(33);
   const [status, setStatus] = useState('ing')
   const [client, setClient] = useState({});
 
