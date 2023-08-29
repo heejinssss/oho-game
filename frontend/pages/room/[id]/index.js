@@ -30,7 +30,7 @@ export default function RoomPage() {
   let subGame = null;
 
   const roomId = useSelector((state) => state.room.currentRoomId);
-  const token = useSelector((state) => state.player.currentPlayerId); //오픈비두 토큰
+  const token = useSelector((state) => state.player.currentPlayerId); // OpenVidu token
   const nickname = useSelector((state) => state.player.currentNick);
   const head = useSelector((state) => state.player.currentHead);
   const playerReady = useSelector((state) => state.player.currentReady);
