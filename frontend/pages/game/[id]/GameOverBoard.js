@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo } from "react";
-import Link from 'next/link';
+import Link from "next/link";
 import styles from "@/styles/GamePage.module.css";
 
 export default function GameOverBoard() {
