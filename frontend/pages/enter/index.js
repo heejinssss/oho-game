@@ -79,11 +79,11 @@ export default function EnterPage() {
     })
       .then((response) => {
         obj = {
-          roomId: response.data.room.id, // openVidu session
+          roomId: response.data.room.id, // OpenVidu session
           progress: response.data.room.progress,
           secret: response.data.room.secret, // 비밀 방 여부
           nick: text || response.data.player.nickname,
-          playerId: response.data.player.id, // openVidu token
+          playerId: response.data.player.id, // IpenVidu token
           ready: response.data.player.ready,
         };
         let playerInfo = {
@@ -97,7 +97,7 @@ export default function EnterPage() {
           /* 연재 : obj 정보 저장 */
           dispatch(
             enterRoom({
-              roomId: response.data.room.id, // openVidu session
+              roomId: response.data.room.id, // OpenVidu session
               progress: response.data.room.progress,
               secret: response.data.room.secret,
             })
