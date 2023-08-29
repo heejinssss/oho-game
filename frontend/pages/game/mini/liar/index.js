@@ -1,8 +1,8 @@
-'use client'
+"use client";
 
-import React, { useState, useEffect, useRef } from 'react';
-import LiarGame from './LiarGame';
-import styles from '@/styles/LiarGame.module.css';
+import React, { useState, useEffect, useRef } from "react";
+import LiarGame from "./LiarGame";
+import styles from "@/styles/LiarGame.module.css";
 
 export default function Liar() {
   const [sec, setSec] = useState(0);
