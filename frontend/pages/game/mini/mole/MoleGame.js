@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
-import SockJS from 'sockjs-client';
-import { Stomp } from '@stomp/stompjs';
-import Ready from './MoleReady';
-import Go from './MoleGo';
-import styles from '@/styles/MoleGame.module.css';
+import SockJS from "sockjs-client";
+import { Stomp } from "@stomp/stompjs";
+import Ready from "./MoleReady";
+import Go from "./MoleGo";
+import styles from "@/styles/MoleGame.module.css";
 
 const getRandomGridPosition = () => ({
   row: Math.floor(Math.random() * 3), // 0, 1, 2
