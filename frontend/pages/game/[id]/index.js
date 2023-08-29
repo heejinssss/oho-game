@@ -1,14 +1,14 @@
-'use client'
+"use client";
 
 import React, { useEffect, useState, useMemo } from "react";
 import { useRouter } from "next/router";
 import DiceBox from "./DiceBox";
 import ActiveBoard from "./ActiveBoard";
 import GameSelect from "./GameSelect";
-import OpenViduVideoComponent from '@/pages/room/[id]/OvVideo.js';
-import FilterVideoComponent from '@/pages/room/[id]/FilterVideo.js';
+import OpenViduVideoComponent from "@/pages/room/[id]/OvVideo.js";
+import FilterVideoComponent from "@/pages/room/[id]/FilterVideo.js";
 import styles from "@/styles/GamePage.module.css";
-import Videostyles from '@/styles/UserVideo.module.css';
+import Videostyles from "@/styles/UserVideo.module.css";
 import { styled } from "styled-components";
 import SockJS from "sockjs-client";
 import { Stomp } from "@stomp/stompjs";
@@ -200,7 +200,6 @@ export default function GamePage() {
 
   /* 희진 : 리랜더링 방지 시작 */
   // 방장 카메라
-
   const memoRoomCamPub = useMemo(() => {
     return (
       facefilterNick !== null ?
