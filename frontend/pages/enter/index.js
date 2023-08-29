@@ -1,11 +1,10 @@
-'use client'
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/router";
 import RightBox from "./RightBox.js";
 import MusicPlayer from "../data/MusicPlayer.js";
 import styles from "@/styles/EnterPage.module.css";
-import classNames from "classnames";
 import SockJS from "sockjs-client";
 import { Stomp } from "@stomp/stompjs";
 import axios from "axios";
@@ -80,25 +79,25 @@ export default function EnterPage() {
     })
       .then((response) => {
         obj = {
-          roomId: response.data.room.id, //오픈비두 세션
+          roomId: response.data.room.id, // openVidu session
           progress: response.data.room.progress,
-          secret: response.data.room.secret, // 비밀 방인지, 아닌지
+          secret: response.data.room.secret, // 비밀 방 여부
           nick: text || response.data.player.nickname,
-          playerId: response.data.player.id, //오픈비두 토큰
+          playerId: response.data.player.id, // openVidu token
           ready: response.data.player.ready,
         };
         let playerInfo = {
           playerId: response.data.player.id, // -> room에서 주기
           nick: text || response.data.player.nickname, // -> room에서 주기
           ready: response.data.player.ready,
-          head: true, //방을 연 사람이므로 방장 true
+          head: true, // 방을 만든 사람이므로 방장 true
         };
         
         const sendData = () => {
           /* 연재 : obj 정보 저장 */
           dispatch(
             enterRoom({
-              roomId: response.data.room.id, //오픈비두 세션
+              roomId: response.data.room.id, // openVidu session
               progress: response.data.room.progress,
               secret: response.data.room.secret,
             })
@@ -155,8 +154,8 @@ export default function EnterPage() {
 
       <div className={styles.boxContainer}>
         {/* 닉네임 입력 상자 */}
-        <div className={classNames({ [styles.box]: true, [styles.leftBox]: true })}>
-          <video className={styles.cam} ref={videoRef} /> {/* 임시 화상화면 상자 */}
+        <div className={`${styles.box} ${styles.leftBox}`}>
+          <video className={styles.cam} ref={videoRef} /> {/* 화상화면 상자 */}
           <div className={styles.inputContainer}>
             <input
               className={styles.nickname}
