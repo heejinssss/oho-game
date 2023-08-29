@@ -123,15 +123,12 @@
 .container {
   margin: 0;
   padding: 0;
-
   width: 100vw;
   height: 100vh;
-
   background-image: url("../public/main/background2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   animation: fadein 3s;
   -moz-animation: fadein 3s;
   /* Firefox */
@@ -147,7 +144,6 @@
 }
 
 .boxContainer {
-  /* padding-top: 160px; */
   display: flex;
   justify-content: center;
 }
@@ -157,10 +153,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   min-width: 500px;
   min-height: 500px;
-
   background-image: url("../public/main/woodbox.png");
   background-size: cover;
 }
@@ -199,7 +193,6 @@
   margin-top: 20px;
   position: relative;
   top: 10px;
-
   width: 80%;
   text-align: center;
 }
@@ -210,11 +203,10 @@
   position: absolute;
   left: -13%;
   cursor: pointer;
-  /* transform: translateX(-50%); */
   animation: jello_horizontal 1.5s 5.5s infinite;
 }
 
-/***** 오른쪽 박스 팁 시작 *****/
+/* 오른쪽 박스 팁 시작 */
 .innerBox {
   display: flex;
   flex-direction: column;
