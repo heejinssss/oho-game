@@ -93,14 +93,14 @@ export default function EnterRoomPage() {
     })
       .then((response) => {
         obj = {
-          roomId: roomId, // openVidu session
+          roomId: roomId, // OpenVidu session
 
           /* 혜지 : setPlayer API에서는 Room 값을 받아오지 않으므로, progress와 secret 임시로 false 부여 */
           progress: false,
           secret: false, // 비밀 방 여부
 
           nick: text || response.data.nickname,
-          playerId: response.data.id, // openVidu token
+          playerId: response.data.id, // OpenVidu token
           ready: response.data.ready,
         };
         let playerInfo = {
