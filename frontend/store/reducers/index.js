@@ -12,7 +12,7 @@ import stompSlice from "./stomp";
 
 const rootReducer = (state, action) => {
   switch (action.type) {
-    // ▼없으면 ssr이 안되는 듯
+    // ▼ 없으면 ssr이 안되는 듯
     case HYDRATE:
       return action.payload;
     default: {
