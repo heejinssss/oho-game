@@ -1,9 +1,9 @@
 import React from "react";
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from "react";
 import { useSelector } from "react-redux";
-import SockJS from 'sockjs-client';
-import { Stomp } from '@stomp/stompjs';
-import styles from '@/styles/LiarGame.module.css';
+import SockJS from "sockjs-client";
+import { Stomp } from "@stomp/stompjs";
+import styles from "@/styles/LiarGame.module.css";
 
 
 export default function VoteLiarComponent() {
