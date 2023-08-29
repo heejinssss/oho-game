@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
-import SockJS from 'sockjs-client';
-import { Stomp } from '@stomp/stompjs';
-import styles from '@/styles/LiarGame.module.css';
-import Phase2 from './Phase2';
+import SockJS from "sockjs-client";
+import { Stomp } from "@stomp/stompjs";
+import styles from "@/styles/LiarGame.module.css";
+import Phase2 from "./Phase2";
 
 export default function Picktopic() {
   const roomId = useSelector(state => state.room.currentRoomId);
@@ -41,7 +41,7 @@ export default function Picktopic() {
   }, [])
   /* 혜지 : 소켓 연결 완료 */
 
-  //방장 주제 전송
+  // 방장 주제 전송
   const handleTopicClick = (topic) => {
     if(currentPlayer.currentHead) {
       let sendData = {
