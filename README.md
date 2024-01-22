@@ -124,7 +124,7 @@
 <img  alt="GitLab CI/CD" src ="https://img.shields.io/badge/GitLab CI/CD-FC6D26.svg?&style=for-the-badge&logo=gitlab&logoColor=white"/>
 
 # 아키텍처
-<img alt="Architeture src="https://github.com/heejinssss/project-pochacha/assets/122508547/1cfa7dfa-5c29-407b-8da1-a629f9c8fe91"/>
+<img alt="Architeture" src= "https://github.com/heejinssss/project-pochacha/assets/122508547/1cfa7dfa-5c29-407b-8da1-a629f9c8fe91"/>
 
 # 팀원 소개
 |![유영](https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:06d99255-c30a-4130-8ec1-5a7243ddc80f/8237d16f-b689-4d3e-b8c4-28b42bd42af9/128)|![임혜지](https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:c22a9139-eb79-42c8-9e76-8b9f8ac25f8a/0379d4b1-3d0d-43f5-8e70-20b0825a458b/128)|![김태훈](https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:1c4d69ae-39f6-4d45-a811-b266b3df1c94/06013e9c-79ce-4207-b35e-5b0c394b45a6/128)|![연제정](https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:4ff99902-745d-4ff3-9d04-d90294035542/d14939b1-3a1e-4a7e-a85b-4bcdaf11fe1c/128)|![배희진](https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:211f43a8-7de6-4c3e-9a29-7b7406ac7770/8bf6f204-7003-45f7-bd5f-4ee2fba89ebc/128)|![김연재](https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:289f6611-e32c-43d6-bf61-271e7bd4d6e2/adf7a466-883b-4a2c-9392-81402cf873cb/128)|
